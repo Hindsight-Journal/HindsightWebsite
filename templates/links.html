@@ -1,0 +1,36 @@
+<section 
+class="section section-scroll has-background-primary-light"
+id="{{section.frag_link}}"
+>
+    <!--access to past issues, links to our socials, extra info about us. -->
+
+    <div class="container">
+        <h1 class="title is-size-1">
+            {{section.title}}
+        </h1>
+        <div class="columns">
+            {% for row in section.metadata.rows %}
+          <div class="column">
+            {% for section in row.sections %}
+            <h3 class="title is-grey is-size-3">{{ section.title }}</h3>
+            <ul>
+                {% for link in section.links %}
+              <li>
+                <a target="_blank" href="{{link.link}}">
+                <span class="icon-text">
+                  <span class="icon">
+                    <i class="fa {{link.icon}}"></i>
+                  </span>
+                  <span>{{link.text}}</span>
+                </span>
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+            <br>
+            {% endfor %}
+          </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

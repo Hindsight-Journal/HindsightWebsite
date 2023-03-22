@@ -1,0 +1,55 @@
+<section class="section section-scroll">
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            {% for link in site.nav_links %}
+            <a class="navbar-item" href="{{ link.link|replace('FRAG_','#') }}">
+              {{link.text}}
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </nav>
+  
+      <script >
+        document.addEventListener('DOMContentLoaded', () => {
+  
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+  
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+  
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+  
+    });
+  });
+  
+  });
+      </script>
+    <!-- Banner centered on the viewport -->
+    <div class="container is-medium">
+    <img src="{{ section.metadata.banner_url }}" alt="banner" class="hero-banner">
+    <br>
+    <p class="subtitle has-text-centered">{{section.metadata.banner_subtitle}}</p>
+                    <div class="arrow bounce">
+                        <i class="fa fa-long-arrow-down fa-2x" href="#"></i>
+                    </div>
+                </div>
+
+</section>

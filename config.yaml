@@ -1,0 +1,120 @@
+site:
+  title: Hindsight
+  description: Hindsight, formerly Journal 2020, is a student run creative nonfiction journal at the University of Colorado at Boulder, publishing personal essays, new journalism, memoirs, portraits, artwork, and other pieces. On this website you will find previous issues, online issues, artwork, podcasts, and more, all of which celebrate the power of storytelling.
+
+nav_links:
+  - text: Home
+    link: /
+  - text: About
+    link: FRAG_about
+  - text: Links
+    link: FRAG_links
+  - text: Contact
+    link: FRAG_contact
+
+pages:
+  - title: Home
+    permalink: /
+    template: index.html
+    sections:
+      - title: Landing
+        section_template: banner_component.html
+        metadata:
+          - include_navbar: true
+          - banner_url: assets/banner.png
+          - banner_subtitle: Sponsored by the Program for Writing and Rhetoric, and the Undergraduate Research Opportunities Program.
+      - title: Mission Statement
+        frag_link: about
+        section_template: mission_statement.html
+        metadata:
+          - background: assets/bg.jpg
+          - content_file: content/mission_statement.md
+          - buttons:
+            - title: Submit Your Writing & Art Here
+              link: https://journal2020.submittable.com/submit
+            - title: Sign Up For Our Newsletter
+              link: https://journal2020.us4.list-manage.com/subscribe?id=d39e1a2b72&u=a7ccd0077e65cc361d854bcb8
+      - title: Links
+        frag_link: links
+        section_template: links.html
+        metadata:
+          - rows:
+              - row: "Socials & Friends"
+                sections:
+                  - title: "Our Socials"
+                    links:
+                      - link: https://www.instagram.com/hindsight.journal/
+                        icon: fa-instagram
+                        text: Instagram
+                      - link: https://www.youtube.com/@hindsightjournal7706
+                        icon: fa-youtube
+                        text: YouTube
+                      - link: https://www.facebook.com/people/Hindsight-Journal/100087307941472/
+                        icon: fa-facebook
+                        text: Facebook
+                      - link: https://twitter.com/cu_hindsight
+                        icon: fa-twitter
+                        text: Twitter
+                  - title: "Our Friends"
+                    links: 
+                      - link: https://changingskies.org/
+                        text: Changing Skies
+                        icon: fa-link
+                      - link: https://www.colorado.edu/honorsjournal/
+                        text: Honors Journal
+                        icon: fa-link
+                      - link: https://www.colorado.edu/urop/
+                        text: Undergraduate Research Opportunities Program (UROP)
+                        icon: fa-link
+                  - title: "The Snapped Branch Podcast (2022-Present)"
+                    links:
+                      - link: https://www.youtube.com/watch?v=K1UPvrMf5Z4
+                        text: Episode 1 - "Stress"
+                        icon: fa-headphones
+              - row: "Past Issues"
+                sections:
+                  - title: "Hindsight"
+                    links:
+                      - link: assets/pdfs/hindsightv1.pdf
+                        text: Volume I (2021)
+                        icon: fa-book
+                      - link: assets/pdfs/hindsightv2.pdf
+                        text: Volume II (2022)
+                        icon: fa-book
+                  - title: "Journal 2020"
+                    links:
+                      - link: assets/pdfs/spring2013.pdf
+                        text: Spring 2013
+                        icon: fa-book
+                      - link: assets/pdfs/fall2013.pdf
+                        text: Fall 2013
+                        icon: fa-book
+                      - link: assets/pdfs/spring2014.pdf
+                        text: Spring 2014
+                        icon: fa-book
+                      - link: assets/pdfs/2015.pdf
+                        text: 2015
+                        icon: fa-book
+                      - link: assets/pdfs/2016.pdf
+                        text: 2016
+                        icon: fa-book
+                      - link: assets/pdfs/2017.pdf
+                        text: 2017
+                        icon: fa-book
+                      - link: assets/pdfs/2018.pdf  
+                        text: 2018
+                        icon: fa-book
+                      - link: assets/pdfs/2019.pdf
+                        text: 2019
+                        icon: fa-book
+                      - link: assets/pdfs/2020.pdf
+                        text: 2020
+                        icon: fa-book
+      - title: Our Staff
+        frag_link: team
+        section_template: staff.html
+        metadata:
+          - data_dict: content/staff.json
+          - video_link: assets/intro.mp4
+          - footer_text: Made with ❤️ in Boulder, CO
+
