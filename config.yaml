@@ -40,7 +40,7 @@ pages:
         metadata:
           - big_column:
             - title: "Hindsight Journal"
-              image: "assets/cover.jpg"
+              image: "assets/v3.jpg"
               subtitle: "Issue #3"
               body: "Watch this section for the release of our third issue. Till then, check out our previous issue"
               link: "assets/pdfs/hindsightv3.pdf"
