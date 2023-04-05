@@ -1,38 +1,53 @@
 [
+  {
+    "name": "Marisa Lange",
+    "blurb": "Marisa Lange (she/her) is a sophomore studying Ecology and Evolutionary Biology and minoring in Statistics. This is her third semester with Hindsight and as of the start of this year, has taken the role of Editor-In-Chief. In the future, she hopes to work in the healthcare industry. She’s excited to face whatever challenges the journals may bring. She recommends “The Wisdom in Walnuts” by Kela Fetters in Journal Twenty Twenty Vol VIII.",
+    "image_url": "assets/staff_pics/marisa.jpg"
+  },
+  {
+    "name": "Ian Hall",
+    "blurb": "Ian Hall (he/him) is a Junior studying Anthropology and Media Production. This is his third semester on the journal staff. He started in the Spring of 2022 as the Assistant Digital Production Manager, took over as Editor in Chief in Fall 2022, and is now the Assistant Editor in Chief.",
+    "image_url": "assets/staff_pics/hall.jpeg"
+  },
+  {
+    "name": "Shadia Nagati",
+    "blurb": "Shadia Nagati joined Hindsight's staff in the spring of 2022. She’s a senior in the Environmental Studies program and serves as Managing Editor for Changing Skies, our new journal that features pieces on climate change. If she's not responding to emails, she's probably looking for bears.",
+    "image_url": "assets/staff_pics/shadia.jpg"
+  },
+  {
+    "name": "Campbell Watson",
+    "blurb": "Campbell Watson is currently serving as the Managing Editor of Hindsight. This is his first semester with the journal. He is a senior at CU Boulder majoring in Ecology & Evolutionary Biology, and minoring in Geography. Despite a science-focused background, he is an enthusiastic writer, a thorough editor, and enjoys helping our writers publish their best possible work.",
+    "image_url": "assets/staff_pics/campbell.jpg"
+    },
+    {
+      "name": "Emily Calvert",
+      "blurb": "Emily Calvert is the Assistant Managing Editor for Hindsight and Changing Skies. She is a Sophomore double majored in English Literature and Secondary Education. This is her first semester with Hindsight and Changing Skies, but she is excited to learn more about both journals and the process of bringing them to life. She’s looking forward to working with and learning from everyone on the journal!",
+      "image_url": "assets/staff_pics/emily.jpg"
+      },
+      {
+        "name": "Skyler Sysouthavongsa",
+        "blurb": "While he is a barista on the weekends, Skyler is the InDesign Manager for Hindsight. He is a Junior pursuing degrees in both Anthropology and Creative Writing. While he was younger, Skyler performed Ballet in front of an audience. However, now he is spending his time discovering new books. His favorite genres include autobiographies, non-fiction, psychology, and romance.",
+        "image_url": "assets/staff_pics/skyler.jpg"
+        },
+        {
+          "name": "Powell Valles",
+          "blurb": "Powell Valles is the current Art Director for Hindsight and Changing Skies, joining both journals in the spring semester of 2023. He is currently a junior in the ENVD program at CU Boulder. He is focusing on product design, in which he approaches each project with an emphasis on designing the conceptual experience of them. When he is not working on designing things or making art, he is probably partaking in the beauty of life by either writing, watching movies, taking in art in its many forms, or enjoying good food.",
+          "image_url": "assets/staff_pics/powell.png"
+        },
+        {
+          "name": "Liv",
+          "blurb": "Liv Tierney is a junior at CU Boulder studying Art with a minor in sociology. Her passions and hobbies revolve around anything creative, like crocheting, pottery, drawing, reading, and many more. This is her first semester with the journal as a part of the Art Direction team and she is excited to learn more about the process of making Hindsight.",
+          "image_url": "assets/staff_pics/liv.jpg"
+        },
+        {
+          "name": "Finn Cruit",
+          "blurb": "Finn Cruit (he/him) is the current Music/Audio Editor at Hindsight. He is a Sophomore Music Performance Major, studying viola. He hopes to bring some music-oriented insights and contributions to Hindsight, being the only music major on staff.",
+          "image_url": "assets/staff_pics/finn.jpg"
+        },
     {
       "name": "Julia Cleyman",
       "blurb": "Julia Cleyman (she/her) is the Marketing Director for Hindsight. She is in the Leeds Business Program with an emphasis on Marketing and Data Analytics. This is her third semester in the journal but she is excited to continue her work in marketing and bringing Hindsight national. With the help of everyone on staff, she hopes to make the journal more memorable than ever.",
       "image_url": "assets/staff_pics/julia.jpg"
-    },
-    {
-      "name": "Shadia Nagati",
-      "blurb": "Shadia Nagati joined Hindsight's staff in the spring of 2022. She’s a senior in the Environmental Studies program and serves as Managing Editor for Changing Skies, our new journal that features pieces on climate change. If she's not responding to emails, she's probably looking for bears.",
-      "image_url": "assets/staff_pics/shadia.jpg"
-    },
-    {
-      "name": "Ian Hall",
-      "blurb": "Ian Hall (he/him) is a Junior studying Anthropology and Media Production. This is his third semester on the journal staff. He started in the Spring of 2022 as the Assistant Digital Production Manager, took over as Editor in Chief in Fall 2022, and is now the Assistant Editor in Chief.",
-      "image_url": "assets/staff_pics/hall.jpeg"
-    },
-    {
-      "name": "Mark Whooley",
-      "blurb": "Mark Whooley is a second semester junior studying Advertising and Information Science at CU. This is his second semester working for the journal. Mark is an intern working on journal design, A/V, promotion and will assist other departments throughout the semester.",
-      "image_url": "assets/staff_pics/mark.png"
-    },
-    {
-      "name": "Finn Cruit",
-      "blurb": "Finn Cruit (he/him) is the current Music/Audio Editor at Hindsight. He is a Sophomore Music Performance Major, studying viola. He hopes to bring some music-oriented insights and contributions to Hindsight, being the only music major on staff.",
-      "image_url": "assets/staff_pics/finn.jpg"
-    },
-    {
-      "name": "Graham Mauer",
-      "blurb": "Graham Mauer (he/him) is a Junior studying Math and Astrophysics. This is his fourth semester on Hindsight. Aside from working as an editor, he spends his free time bothering his roommate’s cat and doing chemistry experiments.",
-      "image_url": "assets/staff_pics/mauer.jpg"
-    },
-    {
-      "name": "Chloe Arroyo",
-      "blurb": "Chloe Arroyo (she/her) is a sophomore pursuing a double major in English and Political Science on the Pre-law track. This is her second semester working with Hindsight and Changing Skies as a part of the editorial staff.",
-      "image_url": "assets/staff_pics/chloe.jpg"
     },
     {
       "name": "Andy Merrill",
@@ -40,33 +55,73 @@
       "image_url": "assets/staff_pics/andy.jpg"
     },
     {
-        "name": "Emily Calvert",
-        "blurb": "Emily Calvert is the Assistant Managing Editor for Hindsight and Changing Skies. She is a Sophomore double majored in English Literature and Secondary Education. This is her first semester with Hindsight and Changing Skies, but she is excited to learn more about both journals and the process of bringing them to life. She’s looking forward to working with and learning from everyone on the journal!",
-        "image_url": "assets/staff_pics/emily.jpg"
-        },
+      "name": "Nate Phillips",
+      "blurb": "Nate Phillips (He / Him) is the current Business Director at Hindsight Journal! A sophomore in the Leeds School of Business with an emphasis on Management and Entrepreneurship, this is his first semester with the journal with plans for a second next year.",
+      "image_url": "assets/staff_pics/nate.jpg"
+    },
+    {
+      "name": "Vivian Pham",
+      "blurb": "Vivian Pham (she/her) is a senior pursuing an Environmental Studies degree and minoring in English Literature. This is her second semester with the editorial team working on Hindsight and Changing Skies, and she's excited to see how the journals will come together! Outside of the academic setting, she enjoys reading, creating playlists, studying tarot, and scrolling endlessly through TikTok.",
+      "image_url": "assets/staff_pics/vivian.jpg"
+    },
+    {
+      "name": "Brendan Lakey",
+      "blurb": "Brendan Lakey (he/him) is a senior studying Psychology and minoring in Sociology. This is his first semester with Hindsight and Changing Skies, and he is working with the editorial team. He is so excited to see the finished product and pumped to be able to contribute to such an awesome journal! ",
+      "image_url": "assets/staff_pics/brendan.jpg"
+    },
+    {
+      "name": "Stefanie Martinez",
+      "blurb": "Stefanie Martinez (she/her) is a senior majoring in Psychology. This is her first semester with both journals Hindsight and Changing Skies, working with the editorial team to bring the final product of these two journals. She is excited to contribute to both journals and is eager to see the end results.",
+      "image_url": "assets/staff_pics/stefanie.jpg"
+    },
+    {
+      "name": "Riley Coll",
+      "blurb": "Riley Coll (she/her) is a senior psychology major and sociology minor at CU Boulder. This is her first semester with the Hindsight and Changing Skies and she is excited to work with the rest of the staff to see a final product. When she’s not in class or working on the journal, Riley plays music with her band and plays Dungeons & Dragons with her friends.",
+      "image_url": "assets/staff_pics/riley.jpg"
+    },
+    {
+      "name": "Liam Downey",
+      "blurb": "Liam Downey (he/him) is a blind reviewer for Hindsight. He is a sophomore in the College of Arts & Sciences as a Psychology major at CU Boulder. This is his first semester in the journal but he is excited to continue his work in the editorial department in the future. He hopes to help make the journal the best it could possibly be.",
+      "image_url": "assets/staff_pics/liam.png"
+      },
+      {
+        "name": "Chloe Arroyo",
+        "blurb": "Chloe Arroyo (she/her) is a sophomore pursuing a double major in English and Political Science on the Pre-law track. This is her second semester working with Hindsight and Changing Skies as a part of the editorial staff.",
+        "image_url": "assets/staff_pics/chloe.jpg"
+      },
+    {
+      "name": "Mark Whooley",
+      "blurb": "Mark Whooley is a second semester junior studying Advertising and Information Science at CU. This is his second semester working for the journal. Mark is an intern working on journal design, A/V, promotion and will assist other departments throughout the semester.",
+      "image_url": "assets/staff_pics/mark.png"
+    },
+    {
+      "name": "Estrella Vigil",
+      "blurb": "Estrella Vigil is a sophomore at CU Boulder studying English Literature and minoring in business. She enjoys reading and writing poetry along with various arts and crafts such as crochet and painting–another hobby of hers includes collecting stickers and small objects. Estrella is passionate about reading and writing, and hopes to make a career out of this passion with the help of her education.",
+      "image_url": "assets/staff_pics/estrella.jpg"
+      },
+
+    {
+      "name": "Graham Mauer",
+      "blurb": "Graham Mauer (he/him) is a Junior studying Math and Astrophysics. This is his fourth semester on Hindsight. Aside from working as an editor, he spends his free time bothering his roommate’s cat and doing chemistry experiments.",
+      "image_url": "assets/staff_pics/mauer.jpg"
+    },
+
+
+
         {
             "name": "Eid",
             "blurb": "Eid is a blind editor who joined Hindsight in the fall of 2021. He’s a junior majoring in English (Creative Writing). He mostly writes fiction, sometimes nonfiction, and is slowly getting into the world of poetry. He enjoys cooking and is interested in philosophy, psychology, mythology, and he nourishes his creativity from movies, courses on MasterClass, books, and music. He’s so excited to discover what the future holds!",
             "image_url": "assets/staff_pics/eid.jpg"
-            },
-            {
-            "name": "Estrella Vigil",
-            "blurb": "Estrella Vigil is a sophomore at CU Boulder studying English Literature and minoring in business. She enjoys reading and writing poetry along with various arts and crafts such as crochet and painting–another hobby of hers includes collecting stickers and small objects. Estrella is passionate about reading and writing, and hopes to make a career out of this passion with the help of her education.",
-            "image_url": "assets/staff_pics/estrella.jpg"
-            },
-            {
-            "name": "Skyler Sysouthavongsa",
-            "blurb": "While he is a barista on the weekends, Skyler is the InDesign Manager for Hindsight. He is a Junior pursuing degrees in both Anthropology and Creative Writing. While he was younger, Skyler performed Ballet in front of an audience. However, now he is spending his time discovering new books. His favorite genres include autobiographies, non-fiction, psychology, and romance.",
-            "image_url": "assets/staff_pics/skyler.jpg"
-            },
-            {
-            "name": "Campbell Watson",
-            "blurb": "Campbell Watson is currently serving as the Managing Editor of Hindsight. This is his first semester with the journal. He is a senior at CU Boulder majoring in Ecology & Evolutionary Biology, and minoring in Geography. Despite a science-focused background, he is an enthusiastic writer, a thorough editor, and enjoys helping our writers publish their best possible work.",
-            "image_url": "assets/staff_pics/campbell.jpg"
-            },
-            {
-            "name": "Liam Downey",
-            "blurb": "Liam Downey (he/him) is a blind reviewer for Hindsight. He is a sophomore in the College of Arts & Sciences as a Psychology major at CU Boulder. This is his first semester in the journal but he is excited to continue his work in the editorial department in the future. He hopes to help make the journal the best it could possibly be.",
-            "image_url": "assets/staff_pics/liam.png"
             }
+
+
+
+
+
+
+
+
+
+
+
 ]
