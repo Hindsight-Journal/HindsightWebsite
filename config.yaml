@@ -51,6 +51,14 @@ pages:
             - title: "Art Contest Closed"
               body: "Submissions for the current art contest have been closed. Come back here to see when we release the list of winners."
               date: "28th February, 2023"
+      - title: "Piece of the Week"
+        frag_link: potw
+        section_template: potw.html
+        metadata:
+          - title: "Pufsize"
+            section_subtitle: "Art/Writing selected from our archives, updated regularly."
+            subtitle: "by Elijah Pettet"
+            image: "assets/puffsize.jpg"
       - title: Links
         frag_link: links
         section_template: links.html
