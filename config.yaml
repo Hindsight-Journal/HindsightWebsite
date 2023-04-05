@@ -34,6 +34,23 @@ pages:
               link: https://journal2020.submittable.com/submit
             - title: Sign Up For Our Newsletter
               link: https://journal2020.us4.list-manage.com/subscribe?id=d39e1a2b72&u=a7ccd0077e65cc361d854bcb8
+      - title: News
+        frag_link: news
+        section_template: news.html
+        metadata:
+          - big_column:
+            - title: "Hindsight Journal"
+              image: "assets/cover.jpg"
+              subtitle: "Issue #3"
+              body: "Watch this section for the release of our third issue. Till then, check out our previous issue"
+              link: "assets/pdfs/hindsightv3.pdf"
+          - small_column:
+            - title: "Looking Forward to AWP"
+              body: "March 8-11, 2023, Hindsight will be attending the AWP Conference in Seattle, Washington."
+              date: "7th March, 2023"
+            - title: "Art Contest Closed"
+              body: "Submissions for the current art contest have been closed. Come back here to see when we release the list of winners."
+              date: "28th February, 2023"
       - title: Links
         frag_link: links
         section_template: links.html
@@ -118,3 +135,6 @@ pages:
           - video_link: assets/intro.mp4
           - footer_text: Made with ❤️ in Boulder, CO
 
+  - title: Previous Issues
+    permalink: /issues
+    template: page.html
