@@ -1,0 +1,58 @@
+<section 
+    class="section section-scroll has-background-primary-light"
+    id="news"
+    >
+    <div class="container has-text-centered">
+        <h1 class="title is-size-1">
+            {{section.title}}
+        </h1>
+        <div class="columns">
+            <div class="column">
+                {% for row in section.metadata.big_column %}
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{row.image}}" alt="Cover of Hindsight 2022 Volume 2" style="height: 60vh; width: auto;">
+                    </div>
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-content">
+                          <p class="title is-4">{{ row.title }}</p>
+                          <p class="subtitle is-6">{{ row.subtitle }}</p>
+                        </div>
+                      </div>
+                  
+                      <div class="content">
+                        {{row.body}} <a href="{{ row.link}}">Link</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            {% endfor %}
+            <div class="column">
+                {% for row in section.metadata.small_column %}
+                <div class="card">
+                    <header class="card-header">
+                      <p class="card-header-title">
+                        {{row.title}}
+                      </p>
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            <p>{{ row.body }}</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="card-footer-item">
+                        <p>
+                        Posted on {{ row.date }}</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                {% endfor %}
+            </div>
+            <br>
+            <br>
+        </div>
+        </div>
+    </section>
