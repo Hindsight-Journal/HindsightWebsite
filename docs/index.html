@@ -12,7 +12,7 @@
 <body>
     
 
-    <section class="section section-scroll">
+    <section class="section section-scroll" style="height: 100vh;">
     <!-- Navbar -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
@@ -72,11 +72,52 @@
     <div class="container is-medium">
     <img src="assets/banner.png" alt="banner" class="hero-banner">
     <br>
-    <p class="subtitle has-text-centered">Sponsored by the Program for Writing and Rhetoric, and the Undergraduate Research Opportunities Program.</p>
-                    <div class="arrow bounce">
-                        <i class="fa fa-long-arrow-down fa-2x" href="#"></i>
-                    </div>
+    <div class="buttons are-medium is-centered">
+      
+        <a href="https://journal2020.submittable.com/submit" class="button is-dark">Submit Your Writing & Art Here</a>
+      
+        <a href="https://journal2020.us4.list-manage.com/subscribe?id=d39e1a2b72&u=a7ccd0077e65cc361d854bcb8" class="button is-dark">Sign Up For Our Newsletter</a>
+      
+    </div>
                 </div>
+                <a href="https://changingskies.org">
+                <div class="cs-div">
+                  <img class="cs-logo is-rounded" src="assets/cs.png">
+                  
+                </div>
+              </a>
+              </div>
+
+              <style>
+                /*
+                Set cs-logo to be 10% of the viewport height
+                Align to bottom right of container
+                
+                */
+
+                .cs-logo {
+                  height: 10vh !important;
+                  width: auto !important;
+                  object-fit: cover !important;
+                }
+
+                /*
+                on hover, background color changes to black
+                inverts the color of the logo
+                */
+
+                .cs-logo:hover {
+                  background-color: white;
+                  -webkit-filter: invert(100%);
+                  filter: invert(100%);
+                }
+
+                .cs-div {
+                  position: absolute;
+                  bottom: 0;
+                  right: 0;
+                }
+              </style>
 
 </section>
 
@@ -89,15 +130,9 @@ id="about"
 style="margin-top: 30vh; z-index: 1; position: relative; background-color: rgba(235,255,252, 0.9);"
 
 >
-  <h1 class="title has-text-primary-dark is-size-1">Mission Statement</h1>
-  <p class="subtitle has-text-grey-dark">Hindsight, formerly Journal 2020, is a student run creative nonfiction journal at the University of Colorado at Boulder, publishing personal essays, new journalism, memoirs, portraits, artwork, and other pieces. On this website you will find previous issues, online issues, artwork, podcasts, and more, all of which celebrate the power of storytelling.</p>
-  <div class="buttons are-medium is-centered">
-    
-      <a href="https://journal2020.submittable.com/submit" class="button is-dark">Submit Your Writing & Art Here</a>
-    
-      <a href="https://journal2020.us4.list-manage.com/subscribe?id=d39e1a2b72&u=a7ccd0077e65cc361d854bcb8" class="button is-dark">Sign Up For Our Newsletter</a>
-    
-  </div>
+  <h1 class="title has-text-primary-dark is-size-1" style="padding-top: 10vh;">Mission Statement</h1>
+  <p class="subtitle has-text-grey-dark" style="padding-bottom: 10vh;">Hindsight, formerly Journal 2020, is a student run creative nonfiction journal at the University of Colorado at Boulder, publishing personal essays, new journalism, memoirs, portraits, artwork, and other pieces. On this website you will find previous issues, online issues, artwork, podcasts, and more, all of which celebrate the power of storytelling.</p>
+
 </section>
 
     <section 
@@ -458,6 +493,10 @@ id="links"
 </section>
 
     <section class="section large-section-scroll has-background-dark">
+  <div class="container">
+    <video  playsinline="" controls="" controlslist="nodownload" loop="" autoplay="" muted="" src="assets/intro.mp4">
+      <source type="video/mp4" src="assets/intro.mp4">
+  </video></div>
     <div class="container">
         <h1 class="title is-size-1 has-text-primary-light">
             Our Staff
@@ -925,10 +964,7 @@ id="links"
     </div>
     </div>
     <br><br>
-    <div class="container">
-      <video  playsinline="" controls="" controlslist="nodownload" loop="" autoplay="" muted="" src="assets/intro.mp4">
-        <source type="video/mp4" src="assets/intro.mp4">
-    </video></div>
+
     <div class="has-text-centered has-text-primary-light">
       Made with ❤️ in Boulder, CO
     </div>
@@ -963,7 +999,7 @@ id="links"
             display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 25vh;
+            margin-top: 20vh;
             width: 100%;
           }
     

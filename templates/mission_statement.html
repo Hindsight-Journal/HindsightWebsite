@@ -7,11 +7,7 @@ id="{{section.frag_link}}"
 style="margin-top: 30vh; z-index: 1; position: relative; background-color: rgba(235,255,252, 0.9);"
 
 >
-  <h1 class="title has-text-primary-dark is-size-1">{{section.title}}</h1>
-  <p class="subtitle has-text-grey-dark">{{section.metadata.content_file}}</p>
-  <div class="buttons are-medium is-centered">
-    {% for button in section.metadata.buttons %}
-      <a href="{{ button.link }}" class="button is-dark">{{button.title}}</a>
-    {% endfor %}
-  </div>
+  <h1 class="title has-text-primary-dark is-size-1" style="padding-top: 10vh;">{{section.title}}</h1>
+  <p class="subtitle has-text-grey-dark" style="padding-bottom: 10vh;">{{section.metadata.content_file}}</p>
+
 </section>

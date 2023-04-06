@@ -23,17 +23,17 @@ pages:
           - include_navbar: true
           - banner_url: assets/banner.png
           - banner_subtitle: Sponsored by the Program for Writing and Rhetoric, and the Undergraduate Research Opportunities Program.
+          - buttons:
+            - title: Submit Your Writing & Art Here
+              link: https://journal2020.submittable.com/submit
+            - title: Sign Up For Our Newsletter
+              link: https://journal2020.us4.list-manage.com/subscribe?id=d39e1a2b72&u=a7ccd0077e65cc361d854bcb8
       - title: Mission Statement
         frag_link: about
         section_template: mission_statement.html
         metadata:
           - background: assets/bg.jpg
           - content_file: content/mission_statement.md
-          - buttons:
-            - title: Submit Your Writing & Art Here
-              link: https://journal2020.submittable.com/submit
-            - title: Sign Up For Our Newsletter
-              link: https://journal2020.us4.list-manage.com/subscribe?id=d39e1a2b72&u=a7ccd0077e65cc361d854bcb8
       - title: News
         frag_link: news
         section_template: news.html

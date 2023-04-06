@@ -1,4 +1,4 @@
-<section class="section section-scroll">
+<section class="section section-scroll" style="height: 100vh;">
     <!-- Navbar -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
@@ -46,10 +46,49 @@
     <div class="container is-medium">
     <img src="{{ section.metadata.banner_url }}" alt="banner" class="hero-banner">
     <br>
-    <p class="subtitle has-text-centered">{{section.metadata.banner_subtitle}}</p>
-                    <div class="arrow bounce">
-                        <i class="fa fa-long-arrow-down fa-2x" href="#"></i>
-                    </div>
+    <div class="buttons are-medium is-centered">
+      {% for button in section.metadata.buttons %}
+        <a href="{{ button.link }}" class="button is-dark">{{button.title}}</a>
+      {% endfor %}
+    </div>
                 </div>
+                <a href="https://changingskies.org">
+                <div class="cs-div">
+                  <img class="cs-logo is-rounded" src="assets/cs.png">
+                  
+                </div>
+              </a>
+              </div>
+
+              <style>
+                /*
+                Set cs-logo to be 10% of the viewport height
+                Align to bottom right of container
+                
+                */
+
+                .cs-logo {
+                  height: 10vh !important;
+                  width: auto !important;
+                  object-fit: cover !important;
+                }
+
+                /*
+                on hover, background color changes to black
+                inverts the color of the logo
+                */
+
+                .cs-logo:hover {
+                  background-color: white;
+                  -webkit-filter: invert(100%);
+                  filter: invert(100%);
+                }
+
+                .cs-div {
+                  position: absolute;
+                  bottom: 0;
+                  right: 0;
+                }
+              </style>
 
 </section>

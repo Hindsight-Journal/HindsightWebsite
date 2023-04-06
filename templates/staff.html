@@ -1,4 +1,8 @@
 <section class="section large-section-scroll has-background-dark">
+  <div class="container">
+    <video  playsinline="" controls="" controlslist="nodownload" loop="" autoplay="" muted="" src="{{section.metadata.video_link}}">
+      <source type="video/mp4" src="assets/intro.mp4">
+  </video></div>
     <div class="container">
         <h1 class="title is-size-1 has-text-primary-light">
             {{section.title}}
@@ -34,10 +38,7 @@
     </div>
     </div>
     <br><br>
-    <div class="container">
-      <video  playsinline="" controls="" controlslist="nodownload" loop="" autoplay="" muted="" src="{{section.metadata.video_link}}">
-        <source type="video/mp4" src="assets/intro.mp4">
-    </video></div>
+
     <div class="has-text-centered has-text-primary-light">
       {{section.metadata.footer_text}}
     </div>
