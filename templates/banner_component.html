@@ -1,4 +1,4 @@
-<section class="section section-scroll" style="height: 100vh;">
+<section class="section section-scroll">
     <!-- Navbar -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
@@ -46,7 +46,7 @@
     <div class="container is-medium">
     <img src="{{ section.metadata.banner_url }}" alt="banner" class="hero-banner">
     <br>
-    <div class="buttons are-medium is-centered">
+    <div class="buttons are-medium is-centered" style="margin-bottom: 20vh;">
       {% for button in section.metadata.buttons %}
         <a href="{{ button.link }}" class="button is-dark">{{button.title}}</a>
       {% endfor %}
