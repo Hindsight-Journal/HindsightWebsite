@@ -14,6 +14,7 @@
 
     <section class="section section-scroll">
     <!-- Navbar -->
+    <!--
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -40,6 +41,7 @@
           </div>
         </div>
       </nav>
+    -->
   
       <script >
         document.addEventListener('DOMContentLoaded', () => {
@@ -68,21 +70,27 @@
     <div class="container is-medium">
     <img src="assets/banner.png" alt="banner" class="hero-banner">
     <br>
-    <div class="buttons are-medium is-centered" style="margin-bottom: 20vh;">
+    <div class="buttons are-medium is-centered" > <!--style="margin-bottom: 20vh;"-->
       
         <a href="https://journal2020.submittable.com/submit" class="button is-dark">Submit Your Writing & Art Here</a>
       
         <a href="https://journal2020.us4.list-manage.com/subscribe?id=d39e1a2b72&u=a7ccd0077e65cc361d854bcb8" class="button is-dark">Sign Up For Our Newsletter</a>
       
     </div>
+    
+    <center>
+      <p class="subtitle is-5">Watch the livestream of our Volume III's print launch, starting April 7th at 7:00 PM (MST) on <a href='https://youtube.com/live/ncu5bhqFMXU'>YouTube.</a></p>
+      <br>
+    </center>
                 </div>
+                <!--
                 <a href="https://changingskies.org">
                 <div class="cs-div">
                   <img class="cs-logo is-rounded" src="assets/cs.png">
                   
                 </div>
-              </a>
-              </div>
+              </a>-->
+             
 
               <style>
                 /*
@@ -113,8 +121,26 @@
                   bottom: 0;
                   right: 0;
                 }
+
+                .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
               </style>
 
+
+<div class="container">
+  <div class="video-container">
+  <iframe src="https://www.youtube-nocookie.com/embed/VNWP7Bq7-Dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></div>
+
+<center>
+  <br>
+  <a href="https://changingskies.org">
+  <img class="cs-logo is-rounded" src="assets/cs.png">
+  <p class="subtitle is-5">Changing Skies</a></p>
+</center>
+
+</div>
 </section>
 
     <section 
@@ -511,7 +537,7 @@ id="links"
                   <div class="media">
                     <div class="media-content">
                       <p class="title is-4">Marisa Lange</p>
-                      <p class="subtitle is-6">Marisa Lange (she/her) is a sophomore studying Ecology and Evolutionary Biology and minoring in Statistics. This is her third semester with Hindsight and as of the start of this year, has taken the role of Editor-In-Chief. In the future, she hopes to work in the healthcare industry. She’s excited to face whatever challenges the journals may bring. She recommends “The Wisdom in Walnuts” by Kela Fetters in Journal Twenty Twenty Vol VIII.</p>
+                      <p class="subtitle is-6">Marisa Lange (she/her) is a sophomore studying Ecology and Evolutionary Biology and minoring in Statistics. This is her third semester with Hindsight and as of the start of this year, has taken the role of Editor-In-Chief. In the future, she hopes to work in the healthcare industry. She’s excited to face whatever challenges the journals may bring.</p>
                     </div>
                   </div>
                 </div>
@@ -995,7 +1021,7 @@ id="links"
             display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 20vh;
+            margin-top: 5vh;
             width: 100%;
           }
     
