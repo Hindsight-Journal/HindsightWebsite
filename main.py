@@ -8,7 +8,7 @@ with open("config.yaml", "r") as file:
     site_data = yaml.safe_load(file)
 
 # Set up Jinja2 environment
-env = Environment(loader=FileSystemLoader("templates"))
+env = Environment(loader=FileSystemLoader("templates"), autoescape=False)
 
 # Create output directory if it doesn't exist
 if not os.path.exists("output"):
