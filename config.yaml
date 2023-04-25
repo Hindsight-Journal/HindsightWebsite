@@ -23,7 +23,7 @@ pages:
           - include_navbar: true
           - banner_url: assets/banner.png
           - banner_subtitle: Sponsored by the Program for Writing and Rhetoric, and the Undergraduate Research Opportunities Program.
-          - banner_callout: Watch the livestream of our Volume III's print launch, on <a href='https://youtube.com/live/ncu5bhqFMXU'>YouTube.</a>
+          - banner_callout: Watch the 2023 Hindsight Launch Event on <a href='https://www.youtube.com/watch?v=2VOToICIYok'>YouTube.</a>
           - banner_callout_second: "Help create the next Hindsight by joining us: Freshmen to Senior can join for 1, 2, or 3 credits, or just volunteer! Email <a href='mailto:jay.ellis@colorado.edu'>jay.ellis@colorado.edu</a>" 
           - youtube_embed: https://www.youtube-nocookie.com/embed/VNWP7Bq7-Dw
           - buttons:
