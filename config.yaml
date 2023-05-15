@@ -48,12 +48,34 @@ pages:
               body: "Hindsight Volume III was launched at Boulder Bookstore on April 7th. Read the latest volume by clicking this "
               link: "assets/pdfs/hindsightv3.pdf"
           - small_column:
+            - title: "Art Contest"
+              body: |
+                <div class="has-text-left">
+                <ul>
+                  <li>Two categories:</li>
+                    <ul>
+                      <li>Prose Writing</li>
+                      <li>Art</li>
+                    </ul>
+                  <li>Prose Writing cateogry:</li>
+                    <ul>
+                      <li>1st Place: $500 prize</li>
+                      <li>2nd Place: $200 prize</li>
+                    </ul>
+                  <li>Art Category</li>
+                    <ul>
+                      <li>1st place: $300 prize</li>
+                      <li>Includes all mediums of art, including photography</li>
+                    </ul>
+                  <li>All submissions are eligible for publication, either online or in print</li>
+                  <li>Deadline: September 16th, 2023</li>
+                </ul>
+                </div>
+
+              date: "14th May, 2023"
             - title: "Looking Forward to AWP"
               body: "March 8-11, 2023, Hindsight will be attending the AWP Conference in Seattle, Washington."
               date: "7th March, 2023"
-            - title: "Art Contest Closed"
-              body: "Submissions for the current art contest have been closed. Come back here to see when we release the list of winners."
-              date: "28th February, 2023"
       - title: "Piece of the Week"
         frag_link: potw
         section_template: potw.html
