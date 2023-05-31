@@ -13,6 +13,16 @@ nav_links:
     link: FRAG_contact
 
 pages:
+  - title: About Us
+    permalink: /about-hindsight
+    template: index.html
+    sections:
+      - title: About Us
+        section_template: banner_component.html
+        metadata:
+          - include_navbar: true
+          - banner_url: assets/banner.png
+          - banner_callout: Lorem Ipsum</a>
   - title: Home
     permalink: /
     template: index.html
