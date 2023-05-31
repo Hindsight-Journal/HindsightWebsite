@@ -3,8 +3,8 @@ site:
   description: Hindsight, formerly Journal 2020, is a student run creative nonfiction journal at the University of Colorado at Boulder, publishing personal essays, new journalism, memoirs, portraits, artwork, and other pieces. On this website you will find previous issues, online issues, artwork, podcasts, and more, all of which celebrate the power of storytelling.
 
 nav_links:
-#  - text: Home
-#    link: /
+  - text: Home
+    link: /
   - text: About
     link: FRAG_about
   - text: Links
