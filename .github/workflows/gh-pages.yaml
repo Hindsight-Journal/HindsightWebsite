@@ -26,7 +26,7 @@ jobs:
         
       - name: Install Dependencies
         run: |
-          pip install yaml json jinja2
+          pip install pyyaml json jinja2
     
       - name: Build website
         run: python main.py
