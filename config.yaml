@@ -52,7 +52,7 @@ pages:
               body: |
                 <div class="has-text-left">
                 <ul>
-                  <li>Two categories:</li>
+                  <li>Two Categories:</li>
                     <ul>
                       <li>Prose Writing</li>
                       <li>Art</li>
