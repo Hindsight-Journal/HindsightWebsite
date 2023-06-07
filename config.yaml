@@ -31,19 +31,10 @@ pages:
               link: https://journal2020.submittable.com/submit
             - title: Sign Up For Our Newsletter
               link: https://journal2020.us4.list-manage.com/subscribe?id=d39e1a2b72&u=a7ccd0077e65cc361d854bcb8
-      - title: News
-        frag_link: news
-        section_template: news.html
-        metadata:
-          - big_column:
-            - title: "Hindsight Journal"
-              image: "assets/v3.jpg"
-              subtitle: "Issue #3"
-              body: "Hindsight Volume III was launched at Boulder Bookstore on April 7th. Read the latest volume by clicking this "
-              link: "assets/pdfs/hindsightv3.pdf"
-          - small_column:
-            - title: "Changing Skies Contest"
-              body: |
+     - title: Changing Skies Contest
+        frag_link: cscontest
+        section_template: page.html
+        body: |
                 <div class="has-text-left">
                 <ul>
                   <li>Two Categories:</li>
@@ -63,10 +54,19 @@ pages:
                     </ul>
                   <li>All submissions are eligible for publication, either online or in print</li>
                   <li>Deadline: September 17th, 2023</li>
-                </ul>
-                </div>
+        
+        
+     - title: News
+        frag_link: news
+        section_template: news.html
+        metadata:
+          - big_column:
+            - title: "Hindsight Journal"
+              image: "assets/v3.jpg"
+              subtitle: "Issue #3"
+              body: "Hindsight Volume III was launched at Boulder Bookstore on April 7th. Read the latest volume by clicking this "
+              link: "assets/pdfs/hindsightv3.pdf"
 
-              date: "14th May, 2023"
       - title: "Piece of the Week"
         frag_link: potw
         section_template: potw.html
