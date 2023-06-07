@@ -157,13 +157,13 @@ pages:
         metadata:
           - data_dict: content/staff.json
           - video_link: assets/intro.mp4
-          - footer_text: Made with ❤️ in Boulder, CO
       - title: Mission Statement
         frag_link: about
         section_template: mission_statement.html
         metadata:
           - background: assets/bg.jpg
           - content_file: content/mission_statement.md
+      - text: Made with ❤️ in Boulder, CO
 
   - title: Previous Issues
     permalink: /issues
