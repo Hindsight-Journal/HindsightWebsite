@@ -31,12 +31,6 @@ pages:
               link: https://journal2020.submittable.com/submit
             - title: Sign Up For Our Newsletter
               link: https://journal2020.us4.list-manage.com/subscribe?id=d39e1a2b72&u=a7ccd0077e65cc361d854bcb8
-      - title: Mission Statement
-        frag_link: about
-        section_template: mission_statement.html
-        metadata:
-          - background: assets/bg.jpg
-          - content_file: content/mission_statement.md
       - title: News
         frag_link: news
         section_template: news.html
@@ -73,9 +67,6 @@ pages:
                 </div>
 
               date: "14th May, 2023"
-            - title: "Looking Forward to AWP"
-              body: "March 8-11, 2023, Hindsight will be attending the AWP Conference in Seattle, Washington."
-              date: "7th March, 2023"
       - title: "Piece of the Week"
         frag_link: potw
         section_template: potw.html
@@ -167,6 +158,12 @@ pages:
           - data_dict: content/staff.json
           - video_link: assets/intro.mp4
           - footer_text: Made with ❤️ in Boulder, CO
+      - title: Mission Statement
+        frag_link: about
+        section_template: mission_statement.html
+        metadata:
+          - background: assets/bg.jpg
+          - content_file: content/mission_statement.md
 
   - title: Previous Issues
     permalink: /issues
